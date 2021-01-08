@@ -33,6 +33,7 @@
     </tr>
   </table>
 </div>
+	<%@include file="footer.jsp" %>
 <script src="asset/custom/getExpenses.js"></script>
 </body>
 </html>

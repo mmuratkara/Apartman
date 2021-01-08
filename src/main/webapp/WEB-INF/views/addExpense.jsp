@@ -14,10 +14,10 @@
 		<div class="form-group">
 		<div class="input-group mb-3">
   <div class="input-group-prepend">
-    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+    <label class="input-group-text" for="inputGroupSelect01">Ödeme Türü</label>
   </div>
   <select class="custom-select" id="typeArea">
-    <option selected>Seçiniz...</option>
+    <option selected>Diğer</option>
     <option>Elektrik</option>
     <option>Su</option>
     <option>Temizlik</option>
@@ -45,7 +45,7 @@
 
 
 </form>
-
+<%@include file="footer.jsp" %>
 
 <script src="asset/custom/addExpense.js"></script>
 </body>
